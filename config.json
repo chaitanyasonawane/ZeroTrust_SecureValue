@@ -1,0 +1,42 @@
+{
+  "domain_weights": {
+    "Identity": 0.2,
+    "Devices": 0.15,
+    "Network": 0.15,
+    "Applications": 0.15,
+    "Data": 0.15,
+    "Infrastructure": 0.1,
+    "Governance": 0.1
+  },
+  "maturity_levels": [
+    {
+      "min": 0,
+      "max": 20,
+      "level": "Initial"
+    },
+    {
+      "min": 21,
+      "max": 40,
+      "level": "Developing"
+    },
+    {
+      "min": 41,
+      "max": 60,
+      "level": "Defined"
+    },
+    {
+      "min": 61,
+      "max": 80,
+      "level": "Managed"
+    },
+    {
+      "min": 81,
+      "max": 100,
+      "level": "Optimised"
+    }
+  ],
+  "financial_ui_defaults": {
+    "analysis_years": 5,
+    "discount_rate": 8
+  }
+}

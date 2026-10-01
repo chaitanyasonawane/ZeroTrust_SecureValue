@@ -1,0 +1,43 @@
+QuestionID,Domain,Question,DomainWeight,MaxScore
+ID1,Identity,Is Multi-Factor Authentication (MFA) enabled for all users?,20,5
+ID2,Identity,"Is Conditional Access implemented based on user, device, or location?",20,5
+ID3,Identity,Are privileged accounts protected using Privileged Identity Management (PIM)?,20,5
+ID4,Identity,Are inactive or unused accounts regularly reviewed and removed?,20,5
+ID5,Identity,Is passwordless authentication implemented where appropriate?,20,5
+ID6,Identity,Are user identities continuously monitored for suspicious activities?,20,5
+DV1,Devices,Are all endpoints protected with EDR?,15,5
+DV2,Devices,Are devices regularly patched and updated?,15,5
+DV3,Devices,Is device compliance verified before granting access?,15,5
+DV4,Devices,Are mobile devices managed through an MDM solution?,15,5
+DV5,Devices,Are antivirus and anti-malware solutions centrally managed?,15,5
+DV6,Devices,Are unauthorised devices prevented from accessing organisational resources?,15,5
+NW1,Network,Is network segmentation implemented?,15,5
+NW2,Network,Are firewalls centrally managed and monitored?,15,5
+NW3,Network,Is network traffic continuously monitored for threats?,15,5
+NW4,Network,Is secure remote access provided using VPN or ZTNA?,15,5
+NW5,Network,Are intrusion detection/prevention systems deployed?,15,5
+NW6,Network,Are network policies reviewed regularly?,15,5
+AP1,Applications,Is Single Sign-On implemented?,15,5
+AP2,Applications,Are applications protected using RBAC?,15,5
+AP3,Applications,Are APIs protected?,15,5
+AP4,Applications,Are applications regularly assessed for vulnerabilities?,15,5
+AP5,Applications,Are application logs monitored?,15,5
+AP6,Applications,Are application patches applied promptly?,15,5
+DT1,Data,Is sensitive data classified?,15,5
+DT2,Data,Is sensitive data encrypted?,15,5
+DT3,Data,Is DLP implemented?,15,5
+DT4,Data,Are backups performed and tested?,15,5
+DT5,Data,Is access restricted by role?,15,5
+DT6,Data,Are data access activities monitored?,15,5
+IF1,Infrastructure,Are cloud workloads protected?,10,5
+IF2,Infrastructure,Are servers patched and hardened?,10,5
+IF3,Infrastructure,Is infrastructure monitored?,10,5
+IF4,Infrastructure,Are virtual machines protected?,10,5
+IF5,Infrastructure,Is secure configuration management implemented?,10,5
+IF6,Infrastructure,Are infrastructure changes reviewed?,10,5
+GV1,Governance,Are cybersecurity policies reviewed?,10,5
+GV2,Governance,Is awareness training provided?,10,5
+GV3,Governance,Is there an incident response plan?,10,5
+GV4,Governance,Are security audits conducted?,10,5
+GV5,Governance,Is ISO27001/NIST compliance assessed?,10,5
+GV6,Governance,Are cyber risks reviewed by management?,10,5

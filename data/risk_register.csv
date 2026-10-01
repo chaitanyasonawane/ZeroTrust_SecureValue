@@ -1,0 +1,8 @@
+RiskID,Risk,Domain,BaselineProbability,FinancialImpactAED,Likelihood,Impact,Description
+R01,Identity compromise,Identity,0.12,250000,4,5,Compromise of user or privileged identity leading to unauthorized access.
+R02,Endpoint/device compromise,Devices,0.15,180000,4,4,Compromise of an endpoint or device used to access organisational resources.
+R03,Network attack,Network,0.1,220000,3,5,Network-based attack that enables unauthorized access or lateral movement.
+R04,Application attack,Applications,0.11,300000,4,5,Exploitation of an application or workload weakness.
+R05,Data breach,Data,0.08,500000,3,5,"Unauthorized disclosure, alteration, or loss of sensitive business data."
+R06,Infrastructure compromise,Infrastructure,0.07,350000,3,5,"Compromise of cloud, server, or infrastructure resources."
+R07,Governance/compliance failure,Governance,0.09,150000,3,4,Security governance or compliance weakness causing operational or financial consequences.
